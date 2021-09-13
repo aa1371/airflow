@@ -478,7 +478,7 @@ more than 30 minutes on the same machine when tests are run sequentially.
 
   On MacOS you might have less CPUs and less memory available to run the tests than you have in the host,
   simply because your Docker engine runs in a Linux Virtual Machine under-the-hood. If you want to make
-  use of the paralllelism and memory usage for the CI tests you might want to increase the resources available
+  use of the parallelism and memory usage for the CI tests you might want to increase the resources available
   to your docker engine. See the `Resources <https://docs.docker.com/docker-for-mac/#resources>`_ chapter
   in the ``Docker for Mac`` documentation on how to do it.
 
@@ -726,8 +726,6 @@ The typical session for tests with Kubernetes looks like follows:
 
        Airflow source version:  2.0.0.dev0
        Python version:          3.7
-       DockerHub user:          apache
-       DockerHub repo:          airflow
        Backend:                 postgres 9.6
 
     No kind clusters found.
@@ -768,8 +766,6 @@ The typical session for tests with Kubernetes looks like follows:
 
        Airflow source version:  2.0.0.dev0
        Python version:          3.7
-       DockerHub user:          apache
-       DockerHub repo:          airflow
        Backend:                 postgres 9.6
 
     airflow-python-3.7-v1.17.0-control-plane
